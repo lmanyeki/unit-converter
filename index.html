@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>unit-converter</title>
+  </head>
+  <body>
+<div class="parent">
+<div class="top-container">
+  <h1>convert from any unit to all units</h1>
+  <div class="top-content">
+    <input type="number" id="number" placeholder="value" required>
+    <select name="unit" id="unit" required>
+      <option value="">--Base Unit--</option>
+      <option value="mm">millimeters</option>
+      <option value="cm">centimeters</option>
+      <option value="dm">decimeters</option>
+      <option value="m">meters</option>
+      <option value="Dm">decameter</option>
+      <option value="Hm">Hectometer</option>
+      <option value="Km">kilometer</option>
+    </select>
+    <button class="button">convert</button>
+  </div>
+  
+
+</div>
+<div class="bottom-container">
+  <p id="results"></p>
+</div>
+</div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
