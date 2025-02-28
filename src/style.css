@@ -51,7 +51,7 @@ padding-left: 0.8rem;
 border-radius: 0.3rem;
 border: none;
 width: 15rem;
-/* border: 2px solid red; */
+/* border: 2px solid red;*/
 }
 
 .top-content select{
@@ -89,3 +89,22 @@ button {
   font-weight: 100;
 
 }
+
+.error {
+  border: 2px solid red !important;
+ 
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+#text-paragraph{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.error-content{
+  text-align: center;
+}
+
