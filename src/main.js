@@ -77,6 +77,6 @@ button.onclick = function () {
    
     displayResults.innerHTML += `<p>${value} ${fromUnit} ${connector} ${convertedValues[unit]}  ${unit}</p>`;
   }
-};
+}
 }
 
